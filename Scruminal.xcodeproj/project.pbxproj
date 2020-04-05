@@ -13,6 +13,8 @@
 		E9282D1B243933CA00885CDE /* SprintOnGoing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9282D1A243933CA00885CDE /* SprintOnGoing.swift */; };
 		E9282D1D243933D600885CDE /* SprintReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9282D1C243933D600885CDE /* SprintReview.swift */; };
 		E9282D1F243933F400885CDE /* Kanban.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9282D1E243933F400885CDE /* Kanban.swift */; };
+		E957211F243A796900671A5A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = E957211E243A796900671A5A /* Project.swift */; };
+		E9572121243A797E00671A5A /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9572120243A797E00671A5A /* ProjectManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		E9282D1A243933CA00885CDE /* SprintOnGoing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintOnGoing.swift; sourceTree = "<group>"; };
 		E9282D1C243933D600885CDE /* SprintReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintReview.swift; sourceTree = "<group>"; };
 		E9282D1E243933F400885CDE /* Kanban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban.swift; sourceTree = "<group>"; };
+		E957211E243A796900671A5A /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		E9572120243A797E00671A5A /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		E9282D0C24392AEC00885CDE /* Scruminal */ = {
 			isa = PBXGroup;
 			children = (
+				E957211D243A793F00671A5A /* Project */,
 				E9282D152439339600885CDE /* Backlog */,
 				E9282D142439338E00885CDE /* Sprint */,
 				E9282D0D24392AEC00885CDE /* main.swift */,
@@ -91,6 +96,15 @@
 				E9282D16243933A600885CDE /* Backlog.swift */,
 			);
 			path = Backlog;
+			sourceTree = "<group>";
+		};
+		E957211D243A793F00671A5A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				E957211E243A796900671A5A /* Project.swift */,
+				E9572120243A797E00671A5A /* ProjectManager.swift */,
+			);
+			path = Project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9282D1F243933F400885CDE /* Kanban.swift in Sources */,
+				E9572121243A797E00671A5A /* ProjectManager.swift in Sources */,
 				E9282D0E24392AEC00885CDE /* main.swift in Sources */,
 				E9282D19243933BE00885CDE /* SprintBacklog.swift in Sources */,
 				E9282D17243933A600885CDE /* Backlog.swift in Sources */,
 				E9282D1D243933D600885CDE /* SprintReview.swift in Sources */,
+				E957211F243A796900671A5A /* Project.swift in Sources */,
 				E9282D1B243933CA00885CDE /* SprintOnGoing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
