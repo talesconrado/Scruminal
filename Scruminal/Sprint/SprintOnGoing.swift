@@ -15,7 +15,7 @@ class SprintOnGoing {
     var backlogList = [Int]()
     let sprintBacklog = SprintBacklog()
     
-    //TODO: change this to use as type the struct from SprintBacklog
+    //TODO: change this to use as a type the struct from SprintBacklog
     func addItemToDoingList(listToRemoveFrom: inout [Int], itemIndex:Int){
         //remove from SprintBacklog and...
         let itemToAdd = listToRemoveFrom.remove(at: itemIndex)
@@ -29,12 +29,11 @@ class SprintOnGoing {
     }
     
     //this one would be something like "going back" to sprint backlog, not actually just adding
+    //TODO: this
     func addItemToBacklog(listToRemoveFrom: inout [Int], itemIndex: Int){
         let itemToAdd = listToRemoveFrom.remove(at: itemIndex)
         backlogList.append(itemToAdd)
     }
-    
-    
     
 }
 
