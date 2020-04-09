@@ -21,6 +21,7 @@ class Backlog{
         }
     }
     
+    
     func addItem(itemName:String, priority:Int){
         let newItem = Item(itemName: itemName, priority: priority)
         items.append(newItem)

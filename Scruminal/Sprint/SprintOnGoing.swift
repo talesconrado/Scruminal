@@ -6,4 +6,10 @@
 //  Copyright © 2020 Jéssica & Tales. All rights reserved.
 //
 
+//doing and done tasks trackers
+//checkbox 
+//interation with Kaban
 import Foundation
+
+
+
