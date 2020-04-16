@@ -18,18 +18,18 @@ class SprintBacklog{
     
     struct ItemSprint {
         var backlog:Backlog.Item
-        var dificulty:Int
+        var difficulty:Int
     }
     
     var listSprint = [ItemSprint]()
     
-    func addItemSprint(backlog:Backlog.Item, dificulty:Int){
-        let newItemSprint = ItemSprint(backlog: backlog, dificulty: dificulty)
+    func addItemSprint(backlog:Backlog.Item, difficulty:Int){
+        let newItemSprint = ItemSprint(backlog: backlog, difficulty: difficulty)
         listSprint.append(newItemSprint)
     }
     
-    func editDificulty(index:Int, newDificulty:Int){
-        listSprint[index].dificulty = newDificulty
+    func editDifficulty(index:Int, newDifficulty:Int){
+        listSprint[index].difficulty = newDifficulty
     }
     
     func removeSprintBacklog(index:Int) throws{
